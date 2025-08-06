@@ -3,11 +3,9 @@ import { MdLightMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";
 import Modal from "./Modal";
 import Table from "./Table";
-// import SummaryCard from "./summaryCard";
 import EmptyPage from "./EmptyPage";
 import { ThemeContext } from "../store/ThemeContext";
-import SummaryCard from "./summaryCard";
-// import SummaryCard from "./summaryCard";
+import SummaryCard from "./SummaryCard";
 
 function Notes() {
   const [todos, setTodos] = useState([]);
@@ -138,19 +136,13 @@ function Notes() {
   return (
     <>
       <div>
-        {/* <div className="flex items-center justify-center p-2 sm:p-3 md:p-6" > */}
+        {}
         <div className="flex items-center justify-center p-2 sm:p-3 md:p-6">
           <div className="relative group w-full max-w-6xl">
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-purple-500 to-indigo-500 opacity-20 blur-2xl group-hover:opacity-40 transition duration-700"></div>
 
             <div className="relative z-10 w-full bg-black/90 rounded-2xl p-3 sm:p-8 md:p-8 shadow-[0_20px_60px_rgba(0,0,0,0.9)] border border-gray-800 backdrop-blur-md">
-              <div className="flex justify-end mb-4">
-                {/* <button
-                  onClick={toggleDarkMode}
-                  className="inline-flex items-center gap-2 bg-[#111] text-white px-4 py-2 rounded-lg text-sm font-medium border border-gray-700 hover:bg-[#1f1f1f] transition duration-300">
-                  {!isDarkMode ? <MdLightMode /> : <MdOutlineLightMode />}
-                </button> */}
-              </div>
+              <div className="flex justify-end mb-4">{}</div>
 
               <div className="text-center mb-4">
                 <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight animate-slideIn">
