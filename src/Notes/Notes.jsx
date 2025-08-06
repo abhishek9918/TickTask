@@ -3,9 +3,10 @@ import { MdLightMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";
 import Modal from "./Modal";
 import Table from "./Table";
-import SummaryCard from "./summaryCard";
+// import SummaryCard from "./summaryCard";
 import EmptyPage from "./EmptyPage";
 import { ThemeContext } from "../store/ThemeContext";
+import SummaryCard from "./summaryCard";
 
 function Notes() {
   const [todos, setTodos] = useState([]);
