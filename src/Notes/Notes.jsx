@@ -7,6 +7,7 @@ import Table from "./Table";
 import EmptyPage from "./EmptyPage";
 import { ThemeContext } from "../store/ThemeContext";
 import SummaryCard from "./summaryCard";
+// import SummaryCard from "./summaryCard";
 
 function Notes() {
   const [todos, setTodos] = useState([]);
